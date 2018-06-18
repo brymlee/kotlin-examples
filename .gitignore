@@ -8,4 +8,5 @@ openjdk-10.0.1_windows-x64_bin.tar.gz
 **/tests.jar
 **/filters.jar
 **/pojos.jar
+**/generics.jar
 **/stuff

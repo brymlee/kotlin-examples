@@ -14,4 +14,9 @@ class Tests{
 		assertEquals("Bob Barker", bobBarker.firstAndLastName())
 	}
 
+	@Test
+	fun instantiateWeatherPojoSuccessfully(){
+		val snowyWeather = Weather(PrecipitationType.SNOW)
+		assertEquals(PrecipitationType.SNOW, snowyWeather.precipitationType)
+	}
 }

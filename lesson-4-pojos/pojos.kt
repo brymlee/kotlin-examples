@@ -9,3 +9,12 @@ class Person(firstName:String, lastName:String){
 		return firstName + " " + lastName
 	}
 }
+
+enum class PrecipitationType{
+	NONE, RAIN, SNOW, HAIL
+
+}
+
+class Weather(precipitationType:PrecipitationType){
+	val precipitationType  = precipitationType
+}
