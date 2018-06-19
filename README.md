@@ -15,5 +15,6 @@
 		<li>Use the Ubuntu subsystem for development or VSCode: https://blog.ubuntu.com/2016/04/14/howto-ubuntu-on-windows-://blog.ubuntu.com/2016/04/14/howto-ubuntu-on-windows-2</li>	
 		<li>Familiarize yourself with GNU Make: https://www.tutorialspoint.com/makefile/index.htm</li>
 		<li>You must have Java installed on your machine and have the "java" executable on your path.</li>
+		<li>Syntax Reference: https://kotlinlang.org/docs/reference/ </li>
 	</ul>
 </html>
