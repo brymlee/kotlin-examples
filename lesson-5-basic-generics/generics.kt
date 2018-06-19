@@ -8,3 +8,7 @@ fun addOne(it:Any) : Int{
 	}
 	throw RuntimeException("Bad stuff is happening")
 }
+
+class TypeHolder<T>(value:T){
+	val value = value
+}
