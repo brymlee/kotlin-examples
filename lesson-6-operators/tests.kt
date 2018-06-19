@@ -22,4 +22,11 @@ class Tests{
 		assertEquals(-1, nullInteger ?: -1)
 	}
 
+	@Test
+	fun castIntegerToString_safely(){
+		val integer = 1
+		val string = integer as? String 
+		assertNull(string)
+	}
+
 }
